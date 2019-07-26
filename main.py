@@ -47,7 +47,7 @@ def boardshow():    #外棋盘变更与展示函数
         for x in range(15):
             print("│"+str(boardsh[x][y]),sep="",end="")
         print("│")
-        if y<15:
+        if y<14:
             print("  ├─┼─┼─┼─┼─┼─┼─┼─┼─┼─┼─┼─┼─┼─┼─┤")
         else:
             print("  └─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┘")
